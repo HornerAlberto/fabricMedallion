@@ -7,16 +7,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fabricMedallion"
-version = 0.0.1
+version = "0.0.1"
 description = "Tools for Medallion architecture with Microsoft Fabric"
 readme = "README.md"
 license = {file = "LICENSE.txt"}
 authors = [
-    {name = "Alberto D. Horner", email = "horneralberto at outlook dot com"},
+    {name = "Alberto D. Horner", email = "horneralberto@outlook.com"},
 ]
 
 maintainers = [
-    {name = "Alberto D. Horner", email = "horneralberto at outlook dot com"},
+    {name = "Alberto D. Horner", email = "horneralberto@outlook.com"},
 ]
 
 requires-python = ">=3.10"
