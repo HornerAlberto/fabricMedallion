@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabricMedallion"
+version = 0.0.1
+description = "Tools for Medallion architecture with Microsoft Fabric"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+authors = [
+    {name = "Alberto D. Horner", email = "horneralberto at outlook dot com"},
+]
+
+maintainers = [
+    {name = "Alberto D. Horner", email = "horneralberto at outlook dot com"},
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "requests==2.31.0",
+    "pyspark==3.5.1",
+    "semantic-link==0.9.3",
+]
+
+[tool.setuptools]
+packages = [
+    "fabricMedallion",
+    "fabricMedallion.architectureDeployments",
+]

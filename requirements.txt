@@ -1,0 +1,3 @@
+requests==2.31.0
+pyspark==3.5.1
+semantic-link==0.9.3
