@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fabricMedallion"
-version = "0.0.1"
+version = "0.0.2"
 description = "Tools for Medallion architecture with Microsoft Fabric"
 readme = "README.md"
 license = {file = "LICENSE.txt"}
