@@ -30,4 +30,5 @@ dependencies = [
 packages = [
     "fabricMedallion",
     "fabricMedallion.architectureDeployments",
+    "fabricMedallion.datamanagement",
 ]
